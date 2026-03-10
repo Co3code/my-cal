@@ -2,12 +2,12 @@
   "expo": {
     "name": "My Calculator",
     "slug": "my-calculator",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
-     "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
-       "image": "./assets/images/splash-icon.png",
+      "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#171717"
     },
@@ -15,11 +15,18 @@
       "package": "com.Ac.calculator",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png",
         "backgroundColor": "#171717"
       }
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "789250de-3597-45b8-b0c2-13811f581257"
+      }
     }
   }
 }
